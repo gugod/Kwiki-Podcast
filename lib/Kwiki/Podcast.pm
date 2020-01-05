@@ -54,8 +54,6 @@ sub mkrss {
     return $rss->as_string;
 }
 
-__DATA__
-
 =head1 NAME
 
   Kwiki::Podcast - Podcasting in a Kwiki way
@@ -104,9 +102,7 @@ General description for this podcast.
 
 Kang-min Liu <gugod@gugod.org>
 
-=head1 COPYRIGHT
-
-Copyright 2005-2019 by Kang-min Liu <gugod@gugod.org>.
+=head1 LICENSE
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
@@ -115,6 +111,7 @@ See <http://www.perl.com/perl/misc/Artistic.html>
 
 =cut
 
+__DATA__
 __config/podcast.yaml__
 podcast_title: Kwiki Podcast
 podcast_publisher: Kwiki Hacker
@@ -125,4 +122,3 @@ __template/tt2/podcast_button.html__
 </a>
 __template/tt2/podcast_button_icon.html__
 Podcast
-
