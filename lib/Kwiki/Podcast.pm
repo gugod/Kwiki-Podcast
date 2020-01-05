@@ -3,7 +3,7 @@ use Kwiki::Plugin -Base;
 use mixin 'Kwiki::Installer';
 use XML::RSS;
 use URI;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 const class_id => 'podcast';
 const class_title => 'Podcast';
@@ -102,7 +102,7 @@ General description for this podcast.
 
 =head1 COPYRIGHT
 
-Copyright 2005 by Kang-min Liu <gugod@gugod.org>.
+Copyright 2005-2019 by Kang-min Liu <gugod@gugod.org>.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

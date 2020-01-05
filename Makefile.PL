@@ -6,6 +6,8 @@ author          ('Kang-min Liu <gugod@gugod.org>');
 license         ('perl');
 version_from    ('lib/Kwiki/Podcast.pm');
 requires        ('Kwiki');
+requires        ('XML::RSS');
+requires        ('mixin');
 build_requires  ('Test::More');
 
 &WriteAll;
