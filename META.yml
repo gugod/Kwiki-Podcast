@@ -3,6 +3,7 @@ abstract: 'Podcasting in a Kwiki way'
 author:
   - 'Kang-min Liu <gugod@gugod.org>'
 build_requires:
+  Test2::Harness: '0'
   Test::More: '0'
 configure_requires:
   Module::Build::Tiny: '0.034'
