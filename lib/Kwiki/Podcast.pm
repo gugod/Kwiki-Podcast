@@ -82,7 +82,7 @@ Subscribe can address your podcast RSS URL from Kwiki's toolbar.
 
 =head1 CONFIGURATION
 
-This plugin offer 3 configuratino keywords:
+The following 3 configuration keys are available:
 
 =over 4
 
@@ -99,6 +99,10 @@ Your name
 General description for this podcast.
 
 =back
+
+=head1 AUTHOR
+
+Kang-min Liu <gugod@gugod.org>
 
 =head1 COPYRIGHT
 
